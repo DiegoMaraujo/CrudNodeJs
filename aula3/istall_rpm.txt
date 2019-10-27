@@ -1,0 +1,5 @@
+ctrl + c pausa o servidor
+
+npm install express --save
+
+npm install -g nodemon nodemo autualiza automaticamento o servidor

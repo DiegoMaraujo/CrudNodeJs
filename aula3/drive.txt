@@ -1,0 +1,65 @@
+create database conta;
+use conta;
+
+
+create table contas(
+id int not null auto_inclement,
+nome varchar(220) null,
+valor double
+primary key(id);
+
+
+);
+
+
+
+// Instalando o mysql  no node js
+
+C:\Users\Diego Martins Souza>cd /
+
+C:\>cd C:\Users\Diego Martins Souza\Desktop\node_js\aula3
+
+C:\Users\Diego Martins Souza\Desktop\node_js\aula3>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (aula3)
+version: (1.0.0)
+description: cursonode
+entry point: (app.js)
+test command:
+git repository:
+keywords:
+author: diego
+license: (ISC)
+About to write to C:\Users\Diego Martins Souza\Desktop\node_js\aula3\package.json:
+
+{
+  "name": "aula3",
+  "version": "1.0.0",
+  "description": "cursonode",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diego",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+drive mysql node js
+
+npm install mysql --save

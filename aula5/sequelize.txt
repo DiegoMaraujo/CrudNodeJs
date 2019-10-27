@@ -1,0 +1,15 @@
+create database conta;
+use conta;
+
+create table contas(
+id int not null auto_inclement,
+nome varchar(220) null,
+valor double
+primary key(id);
+
+);
+
+//instalando o sequelize
+
+npm install --save sequelize 
+npm install --save mysql2

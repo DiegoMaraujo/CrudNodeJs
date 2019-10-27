@@ -1,0 +1,9 @@
+//instalando o Handlebars  criar os layouts
+npm install --save express-handlebars
+
+//instalando o body parse para receber os dados do formulario
+npm install --salve body-parser
+
+
+//formato da data brasil
+npm install --save moment
