@@ -1,0 +1,4 @@
+CREATE DATABASE conta;
+use conta;
+
+force a criação da tabela que fica na pasta model pagamentos.

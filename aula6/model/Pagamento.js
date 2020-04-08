@@ -1,15 +1,15 @@
 const db = require('./db')
 
-const Pagamento = db.sequelize.define('pagamentos',{
+const Pagamento = db.sequelize.define('pagamentos', {
     nome: {
-        type: db.Sequelize.STRING,
+        type: db.Sequelize.STRING
     },
     valor: {
         type: db.Sequelize.DOUBLE
     }
 })
 
-//Criando a tabela
+//Criar a tabela
 //Pagamento.sync({force: true})
 
-module.exports = Pagamento;
+module.exports = Pagamento
